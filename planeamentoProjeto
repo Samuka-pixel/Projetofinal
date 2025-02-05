@@ -1,28 +1,45 @@
-# Projetofinal
-planeamentoProjeto
+Planeamento Projeto
+
+DISTRIBUIÇÃO TAREFAS
+(M)aria: Luta;
+(S)amuel: Exploração/Geração Mapa;
+(L)aura: História; Baús
+
+A FAZER:
+1. código universal
+2. branch into 3 files; work separately
+
+GLOSSARY VARIABLES:
+(sem acentos!)
+
+
+GLOSSARY FUNCTIONS:
+(sem acentos!)
+
 
 Issues:
- - Poção passa a vida do limite
- - jogador consegue apenas comprar um item
- - mudar número de salas no jogo
- - raridade dos baús
- - má sorte de salas não aparecem
- - poucos NPCs
+A - Poção passa a vida do limite
+B - jogador consegue apenas comprar um item
+C - mudar número de salas no jogo
+D - raridade dos baús
+E - má sorte de salas não aparecem
+F - poucos NPCs
+...
+G - 
 
 Soluções:
- - função sleep() para garantir que luta ocorra
+ - função sleep() para garantir que luta ocorra (M)
+ - Colocar uma sala para comprar algo antes do boss final (M)
+ - Fazer com que o limite de vida seja X para poção não dar mais do que é necessário (L)
+ - fazer com que a loja pergunte para comprar novamente (L)
+ - obrigar o jogo a colocar uma loja na metade do jogo (L)
+ - ver a sombra do dragão algumas salas antes do boss (M)
+ - sala dizer que esta quente quando aproximar o boss (M)
+ - em vez de comprar espada dizer "refinar" espada (L)
+ - fazer o numero de salas aleatório como entre 7 a 15 (S)
+ - baús (L)
+
+(L) História:
  - mago aparece e oferece objeto antes da grande batalha
- - Colocar uma sala para comprar algo antes do boss final 
- - Fazer com que o limite de vida seja X para poção não dar mais do que é necessário
- - fazer com que a loja pergunte para comprar novamente
- - obrigar o jogo a colocar uma loja na metade do jogo
- - fazer o numero de salas aleatório como entre 7 a 15 
- - ver a sombra do dragão algumas salas antes do boss
- - sala dizer que esta quente quando aproximar o boss
- - em vez de comprar espada dizer "refinar" espada
  - o jogador foge do labirinto do boss, que está esperando na saída
  - fomos apanhados com relíquias
-
-Maria: Luta
-Samuel: Exploração/Geração Mapa
-Laura: História
