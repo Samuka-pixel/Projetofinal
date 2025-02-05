@@ -1,0 +1,28 @@
+# Projetofinal
+planeamentoProjeto
+
+Issues:
+ - Poção passa a vida do limite
+ - jogador consegue apenas comprar um item
+ - mudar número de salas no jogo
+ - raridade dos baús
+ - má sorte de salas não aparecem
+ - poucos NPCs
+
+Soluções:
+ - função sleep() para garantir que luta ocorra
+ - mago aparece e oferece objeto antes da grande batalha
+ - Colocar uma sala para comprar algo antes do boss final 
+ - Fazer com que o limite de vida seja X para poção não dar mais do que é necessário
+ - fazer com que a loja pergunte para comprar novamente
+ - obrigar o jogo a colocar uma loja na metade do jogo
+ - fazer o numero de salas aleatório como entre 7 a 15 
+ - ver a sombra do dragão algumas salas antes do boss
+ - sala dizer que esta quente quando aproximar o boss
+ - em vez de comprar espada dizer "refinar" espada
+ - o jogador foge do labirinto do boss, que está esperando na saída
+ - fomos apanhados com relíquias
+
+Maria: Luta
+Samuel: Exploração/Geração Mapa
+Laura: História
