@@ -49,9 +49,13 @@ def game():
         direcao = input("\nVocê quer ir para a esquerda (1) ou para a direita (2)? ")
         evento = random.choice(["Loja", "Luta", "Tesouro"])
         if evento == "Loja":
+            print("loja")
             loja()
-        elif evento == "Loja":
+        elif evento == "Tesouro":
+            print("bau")
             bau()
-        elif evento == "Loja":
+        elif evento == "Luta":
+            print("luta")
             luta()
 game()
+
