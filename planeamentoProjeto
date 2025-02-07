@@ -12,11 +12,22 @@ A FAZER:
 
 GLOSSARY VARIABLES:
 (sem acentos!)
+name
+utilizador
+hp(vida)
+g(ouro)
+xp(experiencia)
+inventory
 
 
 GLOSSARY FUNCTIONS:
 (sem acentos!)
-
+Player()
+stats()
+luta()
+bau()
+loja()
+game()
 
 Issues:
 A - Poção passa a vida do limite
