@@ -149,7 +149,7 @@ def boss_final(jogador):
     lutar(jogador, boss)
 
     if jogador["hp"] > 0:
-        print(f"\n PARABÉNS! {utilizador} derrotou o chefe final e venceu o jogo! Você conseguiu fugir da masmorra e nada até à superfície em segurança.
+        print(f"\n PARABÉNS! {utilizador} derrotou o chefe final e venceu o jogo! {utilizador} conseguiu fugir da masmorra e nada até à superfície em segurança.")
     else:
         print(f"\n {utilizador} foi derrotado pelo chefe final. Fim de jogo.")
 
