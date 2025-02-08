@@ -126,8 +126,8 @@ def bau(jogador):
             ouro_ganho = random.randint(80, 100)
 
         print(f"\nEncontraste um baú de tesouro! Ele contém {ouro_ganho} ouro!")
-        return ouro_ganho
         jogador["ouro"] += ouro_ganho
+        return ouro_ganho
 
 def boss_final(jogador):
     boss = Enemy("Dragon Shark", 120, 20, 100, 100)
