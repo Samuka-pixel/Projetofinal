@@ -19,6 +19,13 @@ print("_________________________________________________________________________
       "|____________________________________________________________________________________________________________________|")
 sleep(5)
 utilizador = input("Como gostarias de chamar o teu personagem?\n>")
+dif = int(input(f'Qual é a dificuldade que queres jogar? (1 = facil; 2 = normal; 3 = difícil\n>'))
+if dif == 1:
+    num_salas = 7
+elif dif == 2:
+    num_salas = 10
+elif dif == 3:
+    num_salas = 15
 def Player():
     return {
         "hp": 100,
@@ -150,7 +157,6 @@ def boss_final(jogador):
 
 def jogo():
     jogador = Player()
-    num_salas = 12
 
 
     print(f"{'-'*10}Bem-vindo ao jogo de exploração {utilizador}! ⚔{'-'*10}")
