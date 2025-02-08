@@ -44,9 +44,11 @@ def lutar(jogador, inimigo):
     while jogador["hp"] > 0 and inimigo["hp"] > 0:
         acao = int(input(f"\nO que fazer? \n1- Golpe forte\n2- Ataque rápido\n>"))
         if acao == 1:
-            dano = random.randint(20, 50)
+            atk = random.randint(0, 10)
+            dano = atk + jogador["attack"]
         elif acao == 2:
-            dano = random.randint(10, 40)
+            atk = random.randint(0, 5)
+            dano = atk + jogador["attack"]
         else:
             dano = 0
 
