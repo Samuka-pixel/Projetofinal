@@ -1,7 +1,6 @@
 import random
 from time import sleep
 print("\n"
-("\n"
     ".d88888b  dP                         dP       888888ba                                                        \n"
     "88.    '' 88                         88       88    `8b                                                       \n"
     "`Y88888b. 88d888b. .d8888b. 88d888b. 88  .dP  88     88 dP    dP 88d888b. .d8888b. .d8888b. .d8888b. 88d888b. \n"
